@@ -1,4 +1,4 @@
-### CREATE
+#### ✅ CREATE
 
     CREATE TABLE `Class_C` (
     
@@ -13,31 +13,31 @@
     );
 
 
-### INSERT
+#### ✅ INSERT
 
     INSERT INTO `Class_C` (`name`, `age`) VALUES ('Anuj Subedi', 29);
 
   
-### SELECT
+#### ✅ SELECT
 
     SELECT * FROM `Class_C`;
     
     SELECT * FROM `Class_C` WHERE `id` = 1;
 
 
-### DELETE
+#### ✅ DELETE
 
     DELETE FROM `Class_C` WHERE `id` = 1;
     
     DELETE FROM `Class_C` WHERE `name` = 'Anuj Subedi';
 
 
-### UPDATE
+#### ✅ UPDATE
 
     UPDATE `Class_C` SET name='John' WHERE id=2;
 
   
-### ALTER
+#### ✅ ALTER
 
     ALTER TABLE `Class_C` ADD `address` VARCHAR(255) NOT NULL AFTER `age`;
     
@@ -49,13 +49,13 @@
     
     ALTER TABLE `Class_C` RENAME `Class_C` TO `Class_D`;
 
-### DROP
+#### ✅ DROP
 
     DROP TABLE `Class_C`;
     
     DROP TABLE IF EXISTS `Class_C`;
 
   
-### TRUNCATE
+#### ✅ TRUNCATE
 
     TRUNCATE TABLE `Class_C`;
