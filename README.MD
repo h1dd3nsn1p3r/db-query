@@ -1,15 +1,10 @@
 #### ✅ CREATE
 
     CREATE TABLE `Class_C` (
-    
     `id` int(11) NOT NULL AUTO_INCREMENT,
-    
     `name` varchar(255) NOT NULL,
-    
     `age` int(10) NOT NULL,
-    
     PRIMARY KEY (`id`)
-    
     );
 
 
@@ -43,7 +38,7 @@
     
     ALTER TABLE `Class_C` DROP `address`;
     
-    ALTER TABLE `Class_C` CHANGE `name`  `name` VARCHAR(255) NOT NULL;
+    ALTER TABLE `Class_C` CHANGE `name`  `Fname` VARCHAR(255) NOT NULL;
     
     ALTER TABLE `Class_C` MODIFY `name` VARCHAR(255) NOT NULL;
     
