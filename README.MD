@@ -54,3 +54,13 @@
 #### ✅ TRUNCATE
 
     TRUNCATE TABLE `Class_C`;
+
+
+#### ✅ IMPORT DATABASE
+
+    mysqldump -uUSERNAME -p DATABASE_NAME > backup.sql
+
+
+#### ✅ EXPORT DATABASE
+
+    mysql -uUSERNAME -p DATABASE_NAME < backup.sql
