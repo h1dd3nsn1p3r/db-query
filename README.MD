@@ -42,7 +42,7 @@
     
     ALTER TABLE `Class_C` MODIFY `name` VARCHAR(255) NOT NULL;
     
-    ALTER TABLE `Class_C` RENAME `Class_C` TO `Class_D`;
+    ALTER TABLE `Class_C` RENAME TO `Class_D`;
 
 #### ✅ DROP
 
